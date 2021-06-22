@@ -5,7 +5,7 @@ CREATE DATABASE db_cidade_das_frutas;
  CREATE TABLE tb_categoria (
  id_categoria INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
  tipo VARCHAR (100) NOT NULL,
- epoca VARCHAR (100)
+ epoca VARCHAR (100)   
  );
  
   CREATE TABLE tb_produto(
